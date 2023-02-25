@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <p>To-Do List Web App</p>
+    </div>
+    <div class="main">
+        <div class="section1" >
+            <input type="text" name="" id="tt" placeholder="Title" required>
+            <textarea name="" id="dd"  placeholder="Description"></textarea>
+            <button type="submit" onclick="save()" id="save">Save</button>
+        </div>
+        <div class="section2">
+            <div class="details">
+                <div class="div_title">
+                    <p>Title</p>
+                </div>
+                <div class="des">
+                    <p>Description</p>
+                </div>
+                <div class="flex-center">
+                    <div class="edit">
+                        <p>Edit</p>
+                    </div>
+                    <div class="com">
+                        <p>Complete</p>
+                    </div>
+                    <div class="delete">
+                        <p>Delete</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <p style="margin: 3px 0px;">Pending</p>
+            <div class="pending" id="pend" >
+                <div id="display">
+                    
+                </div>
+            </div>
+            <hr>
+            <br>
+            <p style="margin: 3px 0px;">Complete</p>
+            <div class="complete">
+                <div class="pending" id="comp" >
+                    <div id="display">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

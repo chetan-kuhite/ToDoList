@@ -1,0 +1,16 @@
+<div class='details pend' id='display'>
+                    <div class='div_title'>
+                        title
+                    </div>
+                    <div class='des'>
+                        short description
+                    </div>
+                    <div class='flex-center'>
+                        <div class='com'>   
+                            <img src='write.jpg' alt=' height='45px'>       
+                        </div>
+                        <div class='delete'>
+                            <img src='cross.png' alt=' srcset=' height='30px'>
+                        </div>
+                    </div>
+                </div>
